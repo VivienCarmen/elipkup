@@ -1,0 +1,53 @@
+<!--
+Varga Vivien
+Szoft 1/2/E
+Feladat 0327
+2023.02.04
+
+-->
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kúp</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="text-center">Ellipszis kúp térfogat Számítása </h1>
+        <h2>Feladat 0327</h2>
+        <div class="adat">
+            <input type="text" placeholder="magasság"
+            class="form-control" id="height">
+        </div>
+        <div class="adat">
+            <input type="text" placeholder="sugár1"
+            class="form-control" id="radius1">
+        </div>
+        <div class="adat">
+            <input type="text" placeholder="sugár2"
+            class="form-control" id="radius2">
+        </div>
+        <button id="calcButton" 
+        class="btn btn-primary mt-3">
+            Számít
+        </button>
+        <div class="mt-3">
+            <label for="area" class="form-label">
+                Térfogat
+            </label>
+            <input type="text" readonly
+            class="form-control" id="area">
+        </div>
+    </div>
+
+    <div class="about text-center">
+        Varga Vivien, 2023-02-04,Szoft I-2/E
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
